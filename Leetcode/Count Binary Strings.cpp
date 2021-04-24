@@ -4,6 +4,7 @@ public:
         int i,zeros=0,ones=0,cnt=0;
       //just count the continuous substring of same elements and update if continuity breaks
       //more understanding if examples written
+        //can be solved by map also but it is more time and space consuming
         if(s[0]=='0')
             zeros++;
         else ones++;
