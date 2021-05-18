@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+  //find no of all a , 0<a<x such that a XOR x greater than x
   //little bit similar to bit strings problem using knowlwdgw of permutations and combinations
     int q;
     scanf("%d",&q);
