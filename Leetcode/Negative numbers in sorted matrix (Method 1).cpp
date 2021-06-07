@@ -1,6 +1,7 @@
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
+        //mlogn solution, can be optimised further
         //for each row we are gonna use binary search concept 
         int i,j,left,right,cnt=0,mid;
         for(i=0;i<grid.size();i++){
