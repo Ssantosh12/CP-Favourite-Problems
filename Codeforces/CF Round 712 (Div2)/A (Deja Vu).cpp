@@ -2,6 +2,9 @@
 using namespace std;
 
 int main(){
+    
+    // Problem - insert 'a' in the given string to make it non-palindrome
+    //thinking- 
     int t;
     scanf("%d",&t);
     while(t--){
