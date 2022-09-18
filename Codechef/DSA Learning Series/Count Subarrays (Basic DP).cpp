@@ -27,5 +27,6 @@ int main()
             prv=a[i];
         }
         printf("%lld\n",ans);
+        //adding this comment for learning purposes
     }
 }
